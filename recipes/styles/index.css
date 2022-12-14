@@ -20,8 +20,6 @@ a{
   width:auto;
   text-align: center;
   background-color: rgba(159, 159, 159, 0.2);
-  border: solid;
-  border-width: 1px;
   border-color: rgb(70, 70, 70);
   margin: 10px 25px 10px 25px;
 }
