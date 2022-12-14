@@ -3,17 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles/text.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="recipes/styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <p>Today I wanna show you some of my favorite recipes</p>
-    <p>Here are links to recipes</p>
-    <ul>
-        <li><a href="recipes/recipechickenpie.html">Chicken pie</a></li>
-        <li><a href="recipes/recipeslowtacosoup.html">Slow Cooker Taco Soup</a></li>
-        <li><a href="recipes/bbgpork.html">Chinese BBQ</a></li>
-    </ul>
+    <div class="title">
+        <a href="https://www.theodinproject.com/" target="_blank"><h1>Odin Recipes</h1></a>
+    </div>
+    <div class="maindiv">
+        <div class="thumbnail chicken-pie-thumb">
+            <a target="_blank" href="recipes/recipechickenpie.html">
+                <div class="overlay">
+                    <p>Chicken Pie</p>
+                    <p>Discover the secrets to a great chicken pie.
+                        We use an easy one-pan filling, and bake it in a cake tin so it can be easily turned out and cut into neat wedges</p>
+                </div>
+            </a>
+        </div>
+        <div class="thumbnail bqq">
+            <a target="_blank" href="recipes/bbqpork.html">
+                <div class="overlay">
+                    <p>Chinese BBQ</p>
+                    <p>Char siu (叉烧) is a type of Cantonese roast meat. Char siu (or slightly different spelling, cha siu) is its Cantonese name, but in Mandarin, it is known as cha shao.</p>
+                </div>
+            </a>
+        </div>
+        <div class="thumbnail taco-soup">
+            <a target="_blank" href="recipes/recipeslowtacosoup.html">
+                <div class="overlay">
+                    <p>Taco Soup</p>
+                    <p>This Taco Soup recipe is a fall and winter staple! It’s an easy, protein packed soup full of zesty, crave-worthy flavor, 
+                        plus it’s perfectly hearty and filling.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="bottom">
+        <p class="linkme">made by <a href="https://github.com/blackmyn/">@blackmyn</a></p>
+    </div>
 </body>
 </html>

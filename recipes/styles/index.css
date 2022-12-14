@@ -1,0 +1,99 @@
+p {
+  font-family: La Belle Aurore;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+  color: rgb(198, 200, 201);
+}
+body {
+  background-color: rgb(179, 182, 183 );
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(52, 52, 52);
+}
+
+.title {
+  width:auto;
+  text-align: center;
+  background-color: rgba(159, 159, 159, 0.2);
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(70, 70, 70);
+  margin: 10px 25px 10px 25px;
+}
+
+h1 {
+  font-family: La Belle Aurore;
+  margin-top: 7px;
+  font-size: 45px;
+  margin-bottom: 0;
+}
+
+.maindiv {
+    gap: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.thumbnail {
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: auto;
+  text-align: center;
+}
+
+.chicken-pie-thumb {
+  background-image: url(pictures/mini-chicken.jpg);
+}
+
+.bqq {
+  background-image: url(pictures/Char-Siu1.jpg);
+}
+
+.taco-soup {
+  background-image: url(pictures/tacosoup1.jpg);
+}
+.overlay {
+  height: 548px;
+  background-color: rgba(0,0,0,0.7);
+  opacity: 0;
+  transition: 0.5s;
+  font-size: 30px;
+  color: #fff;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
+  text-align: center;
+  display: inline-block;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+.bottom {
+  height: fit-content;
+  width: auto;
+  text-align: center;
+  background-color: rgba(159, 159, 159, 0.2);
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(70, 70, 70);
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.linkme {
+  color: black;
+  padding-top: 5px;
+}
